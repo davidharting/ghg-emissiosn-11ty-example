@@ -1,0 +1,21 @@
+---
+layout: layout.html
+pagination:
+    data: cities
+    alias: data
+    size: 10000
+---
+
+<a href="/">Home</a>
+
+<h1>Cities</h1>
+
+<ul>
+{% for d in data %}
+
+<li>
+    <a href="/cities/{{d.city}}">{{ d.city }}</a>
+</li>
+
+{%- endfor -%}
+</ul>

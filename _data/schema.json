@@ -1,0 +1,181 @@
+{
+  "States": [
+    {
+      "State": "String - (Indiana or IN?)",
+      "Cities": [
+        {
+          "City": {
+            "ID": "Integer",
+            "Name": "String",
+            "Years": [
+              {
+                "Year": "Integer",
+                "Emissions": {
+                  "Total": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - Total is always 1.00 - 2 decimal places"
+                  },
+                  "Airport": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Airport CO2e-mn/Total CO2e-mn) - 2 decimal places (12 percent is 0.12)"
+                  },
+                  "Cement": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Cement CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Cmv": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Cmv CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Commercial": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Commercial CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Electricity": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Electricity CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Industrial": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Industrial CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Nonroad": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Nonroad CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Onroad": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Onroad CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Rail": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Rail CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Residential": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Residential CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  }
+                },
+                "CensusLandAreaSqKm": "Integer - Square Kilometers",
+                "PointInclusionLandAreaSqKm": "Integer - N value from Vulcan script",
+                "CensusPopulation": "Integer",
+                "SocialCost": "Integer - (Total Emissions CO2e * $220) - Represents US Dollar Amount",
+                "EmissionsPerCapita": "Float - (Total Emissions CO2e / CensusPopulation) - 2 decimal places",
+                "SocialCostPerCapita": "Float - (SocialCost / CensusPopulation) - 2 decimal places - Represents US Dollar Amount"
+              }
+            ]
+          }
+        }
+      ],
+      "Counties": [
+        {
+          "County": {
+            "ID": "Integer - FIPS",
+            "Name": "String",
+            "Years": [
+              {
+                "Year": "Integer",
+                "Emissions": {
+                  "Total": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - Total is always 1.00 - 2 decimal places"
+                  },
+                  "Airport": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Airport CO2e-mn/Total CO2e-mn) - 2 decimal places (12 percent is 0.12)"
+                  },
+                  "Cement": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Cement CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Cmv": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Cmv CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Commercial": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Commercial CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Electricity": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Electricity CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Industrial": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Industrial CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Nonroad": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Nonroad CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Onroad": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Onroad CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Rail": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Rail CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  },
+                  "Residential": {
+                    "CO2e-lo": "Integer",
+                    "CO2e-mn": "Integer",
+                    "CO2e-hi": "Integer",
+                    "Percent": "Float - (Residential CO2e-mn/Total CO2e-mn) - 2 decimal places"
+                  }
+                },
+                "CensusLandAreaSqKm": "Integer - Square Kilometers",
+                "PointInclusionLandAreaSqKm": "Integer - N value from Vulcan script",
+                "CensusPopulation": "Integer",
+                "SocialCost": "Integer - (Total Emissions CO2e * $220) - Represents US Dollar Amount",
+                "EmissionsPerCapita": "Float - (Total Emissions CO2e / CensusPopulation) - 2 decimal places",
+                "SocialCostPerCapita": "Float - (SocialCost / CensusPopulation) - 2 decimal places - Represents US Dollar Amount"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

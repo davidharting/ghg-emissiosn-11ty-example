@@ -1,0 +1,12 @@
+{
+  "name": "ghg-inventory-web",
+  "version": "1.0.0",
+  "description": "Visualize baseline emission data for cities across the USA. ",
+  "main": "index.js",
+  "author": "Carbon Neutral Indiana",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  }
+}
